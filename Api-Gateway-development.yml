@@ -36,3 +36,8 @@ hystrix:
 
 # Increase the Hystrix timeout to 60s (per service)
 #hystrix.command.<serviceName>.execution.isolation.thread.timeoutInMilliseconds: 60000
+
+eureka:
+  client:
+    register-with-eureka: false
+    fetch-registry: false
