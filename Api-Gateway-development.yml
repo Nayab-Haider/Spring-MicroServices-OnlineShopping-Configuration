@@ -17,6 +17,8 @@ zuul:
       serviceId: ITEM-SERVICE
     salesApi:
       serviceId: SALESORDER-SERVICE
+    shippingApi:
+      serviceId: SHIPPING-SERVICE
 # Increase the Hystrix timeout to 60s (for all)
 ribbon:
    ConnectTimeout: 10000
